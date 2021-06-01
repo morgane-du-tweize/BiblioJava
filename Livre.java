@@ -35,6 +35,8 @@ public class Livre {
 		this.auteur = auteur;
 	}
 	
-	
+	public void displayTitle() {
+		System.out.println("Titre du livre : " + this.getTitre());
+	}
 	
 }

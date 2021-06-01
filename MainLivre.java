@@ -17,8 +17,8 @@ public class MainLivre {
 		livres.add(livre2);
 		livres.add(livre3);
 		
-		for (Livre livre : livres) {
-			System.out.println(livre.toString());
+		for (Livre unLivre : livres) {
+			unLivre.displayTitle();
 		}
 	}
 
