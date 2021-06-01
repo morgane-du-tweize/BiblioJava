@@ -4,9 +4,11 @@ public class MainLivre {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Livre livre1 = new Livre (00001, "L'appel de Cthulhu", "H. P. Lovecraft");
-		Livre livre2 = new Livre(00002, "Ring", "Kōji Suzuki");
-		Livre livre3 = new Livre(00003, "Carrie", "Stephen King");
+		
+		// créer une arrylist y mettr e nos livres
+		Livre livre1 = new Livre ("rs548", "Les Misérables", "Victor Hugo");
+		Livre livre2 = new Livre("nb548", "L'Iliade et l'Odyssée", "Homère");
+		Livre livre3 = new Livre( "ut862", "1984", "George Orwell");
 	}
 
 }

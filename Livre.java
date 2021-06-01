@@ -1,21 +1,21 @@
 package bibliotheque;
 
 public class Livre {
-	private int reference ;
+	private String reference ;
 	private String titre ;
 	private String auteur ;
 	
-	public Livre(int reference, String titre, String auteur) {
+	public Livre(String reference, String titre, String auteur) {
 		setReference (reference);
 		setTitre (titre);
 		setAuteur (auteur);
 	}
-
-	public int getReference() {
-		return reference;
+	
+	public String getReference() {
+		return reference ;
 	}
 
-	public void setReference(int reference) {
+	public void setReference(String reference) {
 		this.reference = reference;
 	}
 
